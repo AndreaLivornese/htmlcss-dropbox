@@ -231,4 +231,21 @@ section{
 /* fine info membri */
 
 
+/* question */
+
+.question-box{
+    height: 400px;
+    /* test */
+
+    width: 100%;
+
+    background-color: indigo;
+}
+
+.question-box.border{
+    border:4px orangered dashed;
+}
+
+/* fine question */
+
 /* fine main */
