@@ -145,4 +145,33 @@ section{
 
 /* fine tariffe */
 
+
+/* info business */
+
+.info-box-business.row{
+    flex-wrap: wrap;
+    gap:16px;
+}
+
+
+.info-box-business .info-inner{
+    height: 500px;
+    /* test */
+
+    width: calc(100% / 3 - 16px / 3 * 2);
+
+    background-color: mediumturquoise;
+}
+
+.info-box-business .info-img-box{
+    height: 200px;
+    /* test */
+    width: 100%;
+
+    background-color: lawngreen;
+
+}
+
+/* fine info business */
+
 /* fine main */
