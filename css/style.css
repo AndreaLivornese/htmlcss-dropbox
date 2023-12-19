@@ -60,6 +60,11 @@ nav a{
     align-items: center;
 }
 
+.left-side.row ul, .right-side.row ul{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .right-side.row{
     gap:20px;
     align-items: center;
