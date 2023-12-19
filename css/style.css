@@ -98,7 +98,7 @@ header{
 
 }
 
-.big-container .text-side{
+.text-box{
     height: 500px;
     /* test */
     width: 400px;
@@ -107,7 +107,7 @@ header{
 }
 
 
-.big-container .img{
+.img-box{
     height: 500px;
     /* test */
     flex-grow: 1;
