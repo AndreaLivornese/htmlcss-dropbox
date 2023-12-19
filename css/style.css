@@ -151,6 +151,8 @@ section{
 .info-box-business.row{
     flex-wrap: wrap;
     gap:16px;
+
+    margin-bottom: 120px;
 }
 
 
@@ -170,6 +172,15 @@ section{
 
     background-color: lawngreen;
 
+}
+
+.testo-importante{
+    height: 100px;
+    /* test */
+
+    width: 100%;
+
+    background-color: olivedrab;
 }
 
 /* fine info business */
