@@ -9,3 +9,58 @@
 body{
     font-family: sans-serif;
 }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.border{
+    border: 2px dashed black;
+}
+
+.btn{
+    padding:16px;
+    background-color: #0061ff;
+}
+/* navbar */
+
+nav{
+    padding:24px 14px;
+
+    background-color: aqua;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    font-size: 1em;
+    text-decoration: none;
+    color:black;
+}
+
+.left-side.row, .left-side.row ul, .right-side.row ul{
+    gap:40px;
+    align-items: center;
+}
+
+.right-side.row{
+    gap:20px;
+    align-items: center;
+}
+
+.btn.btn-start{
+    padding: 10px 16px;
+}
+
+
+
+
+
+
+
+
+
+/* fine navbar */
