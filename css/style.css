@@ -185,4 +185,50 @@ section{
 
 /* fine info business */
 
+
+/* info membri */
+
+
+.left-right-company-box, .center-company-box{
+    height: 400px;
+    /* test */
+    width: calc(100% / 3);
+}
+
+.left-right-company-box{
+    background-color: slateblue;
+}
+
+.center-company-box{
+    background-color: teal;
+}
+
+.left-right-company-box.row{
+    flex-wrap: wrap;
+}
+
+.company{
+    width: 50%;
+    height: 50%;
+    
+    border: 1px dotted red;
+    
+}
+
+.team.row{
+    flex-wrap: wrap;
+}
+
+.bottom-company-box{
+    padding: 100px 0;
+    background-color: #b4d0e7;
+}
+
+.bottom-company-box .container{
+    height: 100px;
+    /* test */
+}
+/* fine info membri */
+
+
 /* fine main */
