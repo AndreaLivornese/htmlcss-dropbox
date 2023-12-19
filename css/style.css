@@ -80,6 +80,8 @@ header{
     background-color: #b4d0e7;
     padding-top:120px;
     padding-bottom:24px;
+
+    margin-bottom: 150px;
 }
 
 .big-container.row{
@@ -87,7 +89,7 @@ header{
     align-items: flex-start;
 }
 
-.big-container .titolo{
+.titolo{
     height: 100px;
     /* test */
     
@@ -117,5 +119,30 @@ header{
 
 /* fine header */
 
+section{
+    margin-bottom: 150px;
+}
+
+/* tariffe */
+
+.container .tariffe.row{
+    flex-wrap: wrap;
+}
+
+.tariffe .tariffa{
+    height: 600px;
+    width: calc(100% / 3  - 50px / 3 * 2);
+
+    background-color: pink;
+}
+
+.tariffa.enterprice{
+    height: 200px;
+    /* test */
+    width: 100%;
+
+}
+
+/* fine tariffe */
 
 /* fine main */
