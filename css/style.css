@@ -20,7 +20,6 @@ body{
 }
 
 .btn{
-    padding:16px;
     background-color: #0061ff;
 }
 
@@ -75,7 +74,7 @@ nav a{
     padding: 10px 16px;
 }
 
-.btn.btn-start a{
+.btn a{
     color:white;
 }
 
@@ -88,45 +87,60 @@ nav a{
 
 header{
     background-color: #b4d0e7;
-    padding-top:120px;
-    padding-bottom:24px;
+    padding-top:calc(120px - 62px); /*padding misurato dal documento - traslazione verso il basso del container*/
+    /* padding-bottom:24px; */
 
     margin-bottom: 150px;
 }
 
 h1{
     font-size: 58px;
+    margin-bottom: 80px;
 }
 
 .big-container.row{
+    position:relative;
+    bottom: -62px;
     flex-wrap: wrap;
-    align-items: flex-start;
 }
 
 .titolo{
-    
     width: 100%;
-    background-color: blueviolet;
-
 }
 
 .text-box{
-    height: 500px;
-    /* test */
-    width: 400px;
+    width: 30%;
+}
 
-    background-color: red;
+header .text-box p{
+    margin-bottom:38px;
+}
+
+header .btn{
+    text-decoration: none;
+    color:white;
+
+    padding: 16px;
+
+    margin-bottom:36px;
+}
+
+header .fa-solid{
+    font-size: 45px;
+}
+
+header .btn + div{
+    margin-bottom: 80px;
 }
 
 
 .img-box{
-    height: 500px;
-    /* test */
-    flex-grow: 1;
-
-    background-color: blue;
+    width: 70%;
 }
 
+header img{
+    width: 100%;
+}
 
 
 /* fine header */
