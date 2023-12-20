@@ -198,12 +198,13 @@ h3{
 }
 
 .price{
-    font-size: 10px;
+    font-size: 12px;
+    margin-bottom:16px;
 }
 
 .period{
     color:gray;
-    font-size:10px;
+    font-size:12px;
 
     margin-bottom: 60px;
 }
