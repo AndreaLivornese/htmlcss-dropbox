@@ -158,6 +158,11 @@ section{
 
 /* tariffe */
 
+.radio.row{
+    gap:50px;
+    justify-content: flex-start;
+}
+
 input[name="fatturazione"]{
     margin-bottom: 53px;
 }
@@ -165,6 +170,7 @@ input[name="fatturazione"]{
 
 .container .tariffe.row{
     flex-wrap: wrap;
+    margin-bottom:50px;
 }
 
 .tariffe .tariffa{
@@ -174,6 +180,7 @@ input[name="fatturazione"]{
 
 .tariffa.enterprice{
     width: 100%;
+    border:2px solid #d9d9db
 
 }
 
@@ -182,7 +189,7 @@ input[name="fatturazione"]{
     padding:12px;
 
     text-align: center;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
 
     border-bottom:2px solid #d9d9db;
@@ -207,6 +214,32 @@ h3{
     font-size:12px;
 
     margin-bottom: 60px;
+}
+
+.tariffa ul{
+    list-style-type: none;
+}
+
+.tariffa .period + ul li:first-of-type::before{
+    content: '\f007';
+    font-family: "Font Awesome 5 Free";
+    color:black;
+    font-weight: solid;
+}
+
+.tariffa .period + ul li:nth-of-type(2)::before{
+    content: '\f07b';
+    font-family: "Font Awesome 5 Free";
+    color:black;
+    font-weight: solid;
+}
+
+/* fix icona */
+.tariffa .period + ul li:nth-of-type(3)::before{
+    content: '\f1e1';
+    font-family: "Font Awesome 5 Free";
+    color:black;
+
 }
 
 .tariffa li{
