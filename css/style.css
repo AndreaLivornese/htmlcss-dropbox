@@ -111,10 +111,6 @@ h1{
     flex-wrap: wrap;
 }
 
-.titolo{
-    width: 100%;
-}
-
 .text-box{
     width: 30%;
 }
@@ -124,6 +120,7 @@ header .text-box p{
 }
 
 header .btn{
+    display: inline-block;
     text-decoration: none;
     color:white;
 
@@ -283,6 +280,48 @@ h3{
     padding: 16px 0;;
 }
 /* fine tariffe */
+
+/* partner */
+
+#parners .container.row{
+    gap:50px;
+}
+
+#partners .img-box{
+    width: calc(70% - 50px); /*lunghezza - gap*/
+}
+
+#partners .img-box img{
+    display: block;
+    width: 100%;
+}
+
+#partners .text-box{
+    padding: 60px 0;
+}
+
+#partners .titolo{
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
+#partners p{
+    margin-bottom: 36px;
+}
+
+#partners .btn{
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #1b1b1b;
+    padding:15px;
+}
+
+#partners .btn a{
+    color: #1b1b1b;
+}
+
+/* fine partner */
+
 
 
 /* info business */
