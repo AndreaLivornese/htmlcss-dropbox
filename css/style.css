@@ -7,7 +7,7 @@
 /* reset */
 
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .row{
@@ -42,7 +42,7 @@ body{
 nav{
     padding:24px 14px;
 
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 nav ul{
@@ -73,6 +73,10 @@ nav a{
 
 .btn.btn-start{
     padding: 10px 16px;
+}
+
+.btn.btn-start a{
+    color:white;
 }
 
 /* fine navbar */
