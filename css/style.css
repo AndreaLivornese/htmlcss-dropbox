@@ -538,15 +538,44 @@ footer .row{
     gap:100px;
     flex-wrap: wrap;
     align-content: center;
+    margin-bottom:120px;
 }
 
 footer .link{
-    height: 200px;
-    /* test */
-
     width: 140px;
+}
 
-    background-color: seagreen;
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+footer ul li{
+    margin-bottom: 18px;
+}
+
+footer ul li:first-of-type{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:34px;
+}
+
+footer hr{
+    width: 126px;
+    margin-bottom: 55px;
+}
+
+footer .lingua{
+    color:#a4a4a4;
+}
+
+footer .fa-solid.fa-caret-up{
+    vertical-align: baseline;
 }
 
 /* fine footer */
