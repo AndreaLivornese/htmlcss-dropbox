@@ -60,6 +60,7 @@ nav a{
     color:black;
 }
 
+
 .left-side.row, .left-side.row ul, .right-side.row ul{
     gap:40px;
     align-items: center;
@@ -76,11 +77,9 @@ nav a{
     align-items: center;
 }
 
-.btn.btn-start{
+ nav a.btn{
     padding: 10px 16px;
-}
 
-.btn a{
     color:white;
     text-decoration: none;
 }
@@ -249,7 +248,7 @@ h3{
 }
 
 .tariffa .btn + div{
-    margin-bottom: 40px;;
+    margin-bottom: 40px;
 }
 
 .line{
@@ -278,7 +277,13 @@ h3{
 
 
 .tariffa-inner .btn{
+    display: block;
     padding: 16px 0;
+}
+
+.tariffa-inner a.btn{
+    color:white;
+    text-decoration: none;
 }
 /* fine tariffe */
 
@@ -317,8 +322,9 @@ h3{
     padding:15px;
 }
 
-#partners .btn a{
+#partners a.btn{
     color: #1b1b1b;
+    text-decoration: none;
 }
 
 /* fine partner */
@@ -473,15 +479,13 @@ h3{
 
 
 .bottom-company-box .btn{
+    display: block;
     padding:16px 55px;
     background-color: white;
-}
 
-.bottom-company-box .btn a{
     text-decoration: none;
     color:black;
 }
-
 
 /* fine info membri */
 
