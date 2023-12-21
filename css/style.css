@@ -489,16 +489,38 @@ h3{
 /* question */
 
 .question-box{
-    height: 400px;
-    /* test */
-
     width: 100%;
-
-    background-color: indigo;
 }
 
-.question-box.border{
-    border:4px orangered dashed;
+.question-box{
+    padding:45px 0;
+}
+
+.question{
+    padding-right: 45px;
+    font-weight: bold;
+
+}
+
+.answer{
+    display: none;
+}
+
+.fa-solid.fa-chevron-up{
+    display: none;
+}
+
+.question-box:hover .answer{
+    display: block;
+    margin-top: 20px;
+}
+
+.question-box:hover .fa-chevron-down{
+    display: none;
+}
+
+.question-box:hover .fa-chevron-up{
+    display: inline-block;
 }
 
 /* fine question */
