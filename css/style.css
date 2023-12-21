@@ -198,7 +198,7 @@ input[name="fatturazione"]{
 
 h3{
     font-size:18px;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
 }
 
 .price{
@@ -231,6 +231,7 @@ h3{
     font-weight: solid;
 }
 
+
 /* fix icona */
 .tariffa .period + ul li:nth-of-type(3)::before{
     content: '\f1e1';
@@ -253,7 +254,7 @@ h3{
 
 .line{
     width: 50px;
-    border:2px solid #d9d9db;
+    border:1px solid #d9d9db;
 
     margin-bottom: 55px;
 }
@@ -277,7 +278,7 @@ h3{
 
 
 .tariffa-inner .btn{
-    padding: 16px 0;;
+    padding: 16px 0;
 }
 /* fine tariffe */
 
@@ -356,12 +357,14 @@ h3{
 }
 
 .testo-importante{
-    height: 100px;
-    /* test */
+    width: 50%;
+}
 
-    width: 100%;
 
-    background-color: olivedrab;
+.testo-importante .titolo{
+    font-size: 30px;
+
+    margin-bottom: 68px;
 }
 
 /* fine info business */
