@@ -28,8 +28,7 @@ h2{
     text-align: center;
     background-color: #0061ff;
 
-    transition: background-color 0.3s;
-    transition: box-shadow 0.3s;
+    transition: .3s;
 }
 
 .container{
@@ -48,9 +47,7 @@ h2{
 /* navbar */
 
 nav{
-    padding:24px 14px;
-
-    /* background-color: aqua; */
+    padding:24px 14px;;
 }
 
 nav ul{
@@ -219,35 +216,18 @@ h3{
     margin-bottom: 60px;
 }
 
-.tariffa ul{
-    list-style-type: none;
-}
-
-.tariffa .period + ul li:first-of-type::before{
-    content: '\f007';
-    font-family: "Font Awesome 5 Free";
-    color:black;
-    font-weight: solid;
-}
-
-.tariffa .period + ul li:nth-of-type(2)::before{
-    content: '\f07b';
-    font-family: "Font Awesome 5 Free";
-    color:black;
-    font-weight: solid;
+.feature.row{
+    justify-content: flex-start;    
+    gap:5px;
 }
 
 
-/* fix icona */
-.tariffa .period + ul li:nth-of-type(3)::before{
-    content: '\f1e1';
-    font-family: "Font Awesome 5 Free";
-    color:black;
-
+.tariffa .feature{
+    margin-bottom: 30px;
 }
 
-.tariffa li{
-    margin-bottom: 30px;;
+#text-top-column{
+    min-height: 88px;
 }
 
 .tariffa .btn{
@@ -274,12 +254,25 @@ h3{
     gap:100px;
 }
 
+
+/* utilizzati per dividere la riga della tariffa enerprice per team in due colonne*/
 .tariffa-inner > div:first-of-type{
     width: 70%;
 }
 
 .tariffa-inner > div:nth-of-type(2){
     width: 30%;
+}
+
+/* fine */
+
+
+.buy{
+    color:#0061ff;
+}
+
+.fa-solid.fa-check{
+    color:#0960ff;
 }
 
 
