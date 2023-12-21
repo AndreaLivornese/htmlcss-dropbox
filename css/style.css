@@ -374,17 +374,31 @@ h3{
 
 
 .left-right-company-box, .center-company-box{
-    height: 400px;
-    /* test */
     width: calc(100% / 3);
-}
-
-.left-right-company-box{
-    background-color: slateblue;
+    height: calc(100vw / 3);
 }
 
 .center-company-box{
-    background-color: teal;
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+
+.team-box{
+    padding:52px;
+}
+
+.team-box .team-img-box{
+    margin-bottom: 46px;
+}
+
+.team-box img {
+    max-width: 280px;
+    width: 100%;
+}
+
+.team-box hr{
+    max-width: 112px;
+    margin-bottom: 46px;
 }
 
 .left-right-company-box.row{
@@ -394,13 +408,51 @@ h3{
 .company{
     width: 50%;
     height: 50%;
-    
-    border: 1px dotted red;
-    
 }
 
-.team.row{
-    flex-wrap: wrap;
+#designit.company{
+    background-color: #a2d39b;
+}
+
+#arizona_state_university.company{
+    background-color: #61082b;
+}
+
+#university_of_florida.company{
+    background-color: #0093ce;
+}
+
+#topps.company{
+    background-color: #ff1c1c;
+}
+
+#world_bicycle_relief.company{
+    background-color: #d5001f;
+}
+
+#hearst_corp.company{
+    background-color: #b4d0e7;
+}
+
+#lonely_planet.company{
+    background-color: #0d2481;
+}
+
+#clear_channel.company{
+    background-color: #ffd830;
+}
+
+.company img{
+    position: relative;
+    top:50%;
+    left:50%;
+
+    transform: translate(-50%, -50%);
+
+    max-width: 150px;
+    width: 100%;
+
+    filter: invert(1);
 }
 
 .bottom-company-box{
@@ -408,10 +460,29 @@ h3{
     background-color: #b4d0e7;
 }
 
-.bottom-company-box .container{
-    height: 100px;
-    /* test */
+.bottom-company-box .container.row{
+    align-items: flex-start;
 }
+
+.bottom-company-box .titolo{
+    max-width: 40%;
+    color:#61082b;
+    font-size:30px;
+    font-weight: 700;
+}
+
+
+.bottom-company-box .btn{
+    padding:16px 55px;
+    background-color: white;
+}
+
+.bottom-company-box .btn a{
+    text-decoration: none;
+    color:black;
+}
+
+
 /* fine info membri */
 
 
